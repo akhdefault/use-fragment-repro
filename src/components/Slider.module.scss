@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  height: 400px;
+  margin: 80px auto 0;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  width: 900px;
+}
+
+.title {
+  text-align: center;
+}
+
+.item {
+  flex-shrink: 0;
+  height: 400px;
+  scroll-snap-align: start;
+  width: 400px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.black {
+  background-color: black;
+}
+
+.controls {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+// .prevControl,
+// .nextControl {
+//   cursor: pointer;
+// }
